@@ -26,3 +26,6 @@ body {
 .nav-link{
     letter-spacing: 2px;
 }
+#carouselExampleSlidesOnly{
+    height: 500px;
+}
