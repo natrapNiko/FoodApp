@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+.text-pink{
+    color: #ff1448 !important;
+}
+.nav-link{
+    letter-spacing: 2px;
+}
