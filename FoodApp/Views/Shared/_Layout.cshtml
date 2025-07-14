@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/FoodApp.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/jquery-ui.min.css"/>
 </head>
 <body>
     <header class="position-sticky top-0">
@@ -60,7 +61,7 @@
                     </div>
                     <div class="mb-2">
                         <span><i class="fa-brands fa-whatsapp fs-5"></i></span>
-                        <span class="fs-6 x-1"> Whatsapp</span>
+                        <span class="fs-6 mx-1"> Whatsapp</span>
                     </div>
                     <div class="mb-2">
                         <span><i class="fa-regular fa-envelope fs-5"></i></span>
@@ -77,9 +78,12 @@
             </div>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jquery-ui.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
